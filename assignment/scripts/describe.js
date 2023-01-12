@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Declared a variable called name and gave it a string of 'Dane' as its value
+// We check if name is equal to 'Mary'. If that is true, we log 'Hi, Mary!' to the console.
+// Then, if name is not equal to 'Mary', we log 'How do you do?' to the console instead.
 //
 
 //CODE
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare the variable secret with no value. Then we declare variable code with a value of 123.
+// We check if variable code is equal to 123. If it is, variable secret is given a value of 'super' and we multiply the value of code
+// by 2.
+// Then we check whether the value of variable code is greater than 250. If it is, the value of variable secret is given the value 'duper'.
+// Then we log the value of variable secret, which by the end of the program is assigned a value of 'super' as the second if statement evaluates
+// to false.
 
 //CODE
 /*
@@ -70,9 +72,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
+// We declare a variable isStudent and give it a value of the boolean true. Then we declare variables age and zip with values of 34 and 55407.
 // 
 // 
-// 
+//
+//
+//
 //
 
 //CODE
