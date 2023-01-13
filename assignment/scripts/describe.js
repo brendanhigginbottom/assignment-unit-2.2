@@ -29,7 +29,7 @@ if (number >= 2) {
 // Declared a variable called name and gave it a string of 'Dane' as its value
 // We check if name is equal to 'Mary'. If that is true, we log 'Hi, Mary!' to the console.
 // Then, if name is not equal to 'Mary', we log 'How do you do?' to the console instead.
-//
+// Expected output is that we log the string 'How do you do?' to the console.
 
 //CODE
 /*
@@ -73,12 +73,14 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // We declare a variable isStudent and give it a value of the boolean true. Then we declare variables age and zip with values of 34 and 55407.
-// 
-// 
-//
-//
-//
-//
+// Then we check whether variable isStudent is true AND if variable zip is greater than 8000. If it is, we log 'You're a student on the West Coast!'
+// to the console.
+// If the previous if statement evauluates false, we check whether variable isStudent is false OR whether variable age is less then 30. If it is,
+// we console log the string 'What are your hobbies?'
+//If the previous statement evaulautes false, we check whether the variable isStudent is true. If it is, we log 'Welcome to Prime!' to the console.
+//If the previous statement evaluates false, we log 'How about the weather?' to the console. 
+// The expected output in this case is that we log the string 'Welcome to Prime!' to the console. 
+
 
 //CODE
 /*
