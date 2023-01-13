@@ -137,6 +137,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// Variables colorOne and colorTwo are swapped. colorOne should be declared with a value of 'blue' and colorTwo should be declared with
+// a value of 'red'.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -154,6 +157,8 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// Instead of using the AND (&&) boolean we have used OR (||) in the if statement. 
+// The if statement evaluates the same, but the logic is incorrect as written. 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -167,7 +172,11 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//The if statement technically performs the same fuction as the instructions, but noting that we get to the same truthy value by swapping what 
+// we check against what, whether minAge <= age instead of age >= minAge.
 if(minAge <= age) {
+// What we log to the console is incorrect. The instructions asked to log 'enter' if the statement evaluates true, but this code logs 'no entry'
+// instead.
   console.log('no entry');
 } else {
   console.log('enter');
