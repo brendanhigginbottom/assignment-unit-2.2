@@ -139,7 +139,9 @@ if (number >= 2) {
 /*
 
 // Variables colorOne and colorTwo are swapped. colorOne should be declared with a value of 'blue' and colorTwo should be declared with
-// a value of 'red'.
+// a value of 'red', like:
+// let colorOne = 'blue';
+// let colorTwo = 'red';
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
